@@ -1,6 +1,5 @@
 package com.louie.study.dp.flyweiht.example4;
 
-
 /**
  * 封装授权数据中重复出现部分的享元对象
  */

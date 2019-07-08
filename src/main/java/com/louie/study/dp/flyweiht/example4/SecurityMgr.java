@@ -32,6 +32,7 @@ public class SecurityMgr {
         Collection<Flyweight> col = queryByUser(user);
         map.put(user, col);
     }
+
     /**
      * 判断某用户对某个安全实体是否拥有某权限
      * @param user 被检测权限的用户
@@ -41,7 +42,7 @@ public class SecurityMgr {
      */
     public boolean hasPermit(String user,String securityEntity,String permit){
         Collection<Flyweight> col = map.get(user);
-        System.out.println("现在测试"+securityEntity+"的"+permit+"权限，map.size="+map.size());
+        System.out.println("现在测试"+user+"的"+securityEntity+"的"+permit+"权限，size="+col.size());
         if(col==null || col.size()==0){
             System.out.println(user+"没有登录或是没有被分配任何权限");
             return false;
