@@ -11,13 +11,13 @@
 # 中英文对照
 |序号|中文|英文|
 | ---- | ---- | ---- |
-|创建型模式|——|——|
+|创建型模式|——|Creational|
 |1|工厂方法模式|Factory Method Pattern|
 |2|抽象工厂模式|Abstract Factory Pattern|
 |3|建造者模式|Builder Pattern|
 |4|原型模式|Prototype Pattern|
 |5|单例模式|Singleton Pattern|
-|结构型模式|——|——|
+|结构型模式|——|Structural|
 |6|适配器模式|Adapter Pattern|
 |7|桥接模式|Bridge Pattern|
 |8|组合模式|Composite Pattern|
@@ -25,7 +25,7 @@
 |10|门面模式/外观模式|Facade Pattern|
 |11|享元模式|Flyweight Pattern|
 |12|代理模式|Proxy pattern|
-|行为型模式|——|——|
+|行为型模式|——|Behavioral|
 |13|责任链模式|Chain of Responsibility Pattern|
 |14|命令模式|Command Pattern|
 |15|解释器模式|Interpreter Pattern|
